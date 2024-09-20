@@ -1,13 +1,15 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+# Uniswap Mainnet Fork
 
-Try running some of the following tasks:
+A decentralized exchange (DEX) fork leveraging the Uniswap protocol, allowing token swaps, liquidity provision, and removal on the Ethereum mainnet.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+## Features
+
+- Swap tokens for ETH or other tokens
+- Add or remove liquidity from token pairs
+- Efficient liquidity management using Uniswap's mainnet forking capabilities
+
+## Contracts
+
+- **IUniswapV2Router**: Interface for interacting with Uniswap V2 Router to perform token swaps and liquidity operations.
+- **IERC20**: Interface for ERC20 tokens allowing approval, transfer, and allowance management.
